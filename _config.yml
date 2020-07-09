@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-permalink: "/:year-:month-:day-:title/"
+permalink: "/bbb/:year-:month-:day-:title/"
 paginate: 10
 markdown: kramdown
 encoding: utf-8

@@ -1,26 +1,28 @@
-# macOS
-.Trash/
 .DS_Store
-
-# Archive
-_drafts/
-Inbox/
-Archive/
-_Archive/
-Trash/
-.cache/
-
-# NotePlan
-Notes/
-Calendar/
-Filters/
-
-# IDE
 .idea/
-.vscode/
-*.plist
-*.sublime-*
+*.iml
 
-# Dependencies
-configs/
+.jekyll-metadata
+Gemfile.lock
+
+_site/
+_theme/
+_book/
 node_modules/
+yarn-error.log
+npm-error.log
+
+# hexo
+themes/
+
+.sync/*
+
+.me_configs.data
+.md_configs.data
+.z_sync_configs.data
+
+sync_changes.log
+
+sync_hook.script
+
+**/.Archive

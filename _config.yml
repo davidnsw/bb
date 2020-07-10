@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-permalink: "/bbb/:year-:month-:day-:title/"
+permalink: ":year-:month-:day-:title/"
 paginate: 10
 markdown: kramdown
 encoding: utf-8
@@ -22,7 +22,7 @@ author:
   juejin: https://juejin.im/user/5628752900b07a1836200154
   stackoverflow: https://stackoverflow.com/users/5871340/jimmylv
 description: 想做产品，却误入程序世界爱上设计的摄影师。
-url: https://blog.jimmylv.info
+url: https://davidnsw.github.io/bb/
 repo: https://github.com/JimmyLv/jimmylv.github.io
 rss: "/pages/atom.xml"
 gavatar: "/public/img/gavatar.jpg"

@@ -1,6 +1,7 @@
 ---
 title: 吕立青的博客
 timezone: UTC
+url: "https://davidnsw.github.io/bb/" # 你的域名
 collections:
   posts:
     title: Posts

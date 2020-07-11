@@ -1,62 +1,61 @@
----
-title: 吕立青的博客
-timezone: UTC
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: DC
+brief-intro: Sylvia's Husband
 baseurl: "https://davidnsw.github.io/bb/" # the subpath of your site, e.g. /blog
-url: "https://davidnsw.github.io/bb/" # 你的域名
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-permalink: ":year-:month-:day-:title/"
-paginate: 10
+url: "https://davidnsw.github.io/bb/" # the base hostname & protocol for your site
+
+permalink: /:year/:month/:day/:title/
+
+# other links
+twitter_username: 
+facebook_username: davidnsw
+github_username:  davidnsw
+email: drchen.gw@gmail.com
+weibo_username: david
+zhihu_username: zhihu
+linkedIn_username: linkin
+dribbble_username:
+
+description_footer: 本站记录我学习之旅的沿途风景！
+
+# comments
+# two ways to comment, only choose one, and use your own short name
+# 两种评论插件，选一个就好了，使用自己的 short_name
+duoshuo_shortname: #hygblog
+disqus_shortname: davidnsw
+
+# statistic analysis 统计代码
+# 百度统计 id，将统计代码替换为自己的百度统计id，即
+# hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
+# xxxxx字符串
+baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
+google_analytics_id: UA-72449510-4 # google 分析追踪id
+
+# Build settings
 markdown: kramdown
-encoding: utf-8
-author:
-  name: 吕立青
-  email: lv460051518@gmail.com
-  link: https://davidnsw.github.io/bb/
-  weibo: https://weibo.com/liqing215
-  github: https://github.com/JimmyLv
-  zhihu: https://www.zhihu.com/people/JimmyLv
-  juejin: https://juejin.im/user/5628752900b07a1836200154
-  stackoverflow: https://stackoverflow.com/users/5871340/jimmylv
-description: 想做产品，却误入程序世界爱上设计的摄影师。
-url: https://davidnsw.github.io/bb/
-repo: https://github.com/JimmyLv/jimmylv.github.io
-rss: "/pages/atom.xml"
-gavatar: "/public/img/gavatar.jpg"
-favicon: "/public/img/favicon.ico"
-ga:
-  id: UA-74789926-1
-  url: https://davidnsw.github.io/bb/
-disqus:
-  shortname: gotoshare
-active: 前端
-cates:
-- React
-- PKM
-locals:
-  wiki: Wiki
-  ideas: 想法
-  tags: 标签
-  about: 关于
-  newest: 最新文章
-  archive: 归档
-  search: 搜索
-gems:
-- jekyll-sitemap
-- jekyll-paginate
-- jekyll/tagging
-- jekyll-tagging-related_posts
-- jekyll-seo-tag
-- jekyll-mermaid
-exclude:
-- ".idea/"
-- ".github/"
-- ".travis/"
-- node_modules/
-- themes/
-- _posts/演讲/assets
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# port
+# port: 1234
+
+# url
+category_dir: category/
+tag_dir: tag/
+
+# excerpt
+excerpt_separator: "\n\n\n\n"
+
+# paginate
+plugins: [jekyll-paginate]
+paginate: 6
+paginate_path: "page:num"   #分页页面路径格式

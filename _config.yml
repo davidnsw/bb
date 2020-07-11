@@ -1,7 +1,7 @@
 ---
 title: 吕立青的博客
 timezone: UTC
-baseurl: "https://davidnsw.github.io/bbb/" # the subpath of your site, e.g. /blog
+baseurl: "https://davidnsw.github.io/bb/" # the subpath of your site, e.g. /blog
 url: "https://davidnsw.github.io/bb/" # 你的域名
 collections:
   posts:

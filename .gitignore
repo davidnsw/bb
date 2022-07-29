@@ -1,6 +1,10 @@
-_site
-.sass-cache
-.jekyll-metadata
-.vscode
-.idea
-.DS_Store
+# IDEs
+.idea/
+
+# Hugo
+resources/
+public/
+jsconfig.json
+node_modules/
+go.sum
+.hugo_build.lock
